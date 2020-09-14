@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+header{
+    background-image: url(image/ondas.png), linear-gradient(237deg, #46b3ff 0%, #0752f2 100%);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 765px;
+    background-size: contain;
+}
+
+.menu{
+    background-color: #ffffff;
+}
+.menu .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    font-size: 23px;
+    font-weight: bold;
+    color: #000;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header .contenedor-inicio{
+    display: flex;
+    justify-content: center;
+    margin: 3vh 0;
+}
+
+header .titular, header .imagen{
+    width: 40%;
+}
+header h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: white;
+    text-shadow: 1px 2px 50px #000;
+}
+
+header p{
+    color: white;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+header img{
+    width: 100%;
+}
+
+.boton{
+    background: #253547;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.dominios{
+    display: flex;
+}
+
+.dominios li{
+  list-style: none; 
+  margin: 0 2rem; 
+}
+span.punto{
+    color: #1776FF;
+    font-size: 24px;
+}
+
+span.dominio{
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+span.anio{
+    color: #999;
+    font-size: 14px;
+}
+
+/* seccion services */
+#services{
+    margin-top: 120px;
+}
+
+#services .contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+#services .titular{
+    width: 49%;
+}
+
+#services .service{
+    width: 25%;
+    background-color: #FFF;
+    box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 24px 24px 24px 24px;
+    padding: 20px 30px;
+}
+
+#services h2, #pricing h2{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    color: #ff8f00;
+    letter-spacing: 1px; /* separa las letras como si le aplicaras un margen a cada una de ellas */
+}
+
+#services h3, #pricing h3{
+    font-weight: 500;
+    font-size: 38px;
+}
+
+#services .boton{
+    background-color: #2970fa;
+    padding: 15px 38px;
+    letter-spacing: 1px;
+    color: #FFF;
+}
+
+#services h4{
+    font-size: 23px;
+    font-weight: normal;
+    font-family: 'Poppins';
+}
+
+#services p{
+    color: #787878;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+#services a{
+    color: #2970fa;
+    text-decoration: none;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.contenedor-services-2{
+    margin-top: 6rem;
+}
+
+.contenedor-services-2 #dos{
+    position: relative;
+    top: -250px;
+}
+
+#services #uno{
+    margin-left: 152px;
+}
+
+/* precios */
+
+#pricing{
+    padding-top:90px ;
+}
+
+#pricing h2, #pricing h3{
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#pricing h3{
+    font-weight: bold;
+}
+
+.contenedor-precios{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem ;
+}
+#pricing .tabla{
+    background-color: #fff;
+    border-radius: 24px 24px 24px 24px;
+    box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pricing ul{
+    padding: 0;
+}
+
+#pricing .tabla li:nth-child(1){
+    font-family: 'Poppins';
+    color: #ff8f00;
+    list-style: none;
+    margin-bottom: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: -21px;
+}
+
+#pricing .tabla .dolar{
+    position: absolute;
+    color: #999;
+    font-size: 18px;
+}
+
+#pricing .tabla .numero{
+    font-family: 'Rubik';
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 14px;
+}
+#pricing .tabla .mes{
+    color: #999;
+
+}
+
+#pricing .tabla li:nth-child(2){
+   list-style: none; 
+   margin-bottom: 48px;
+   margin-left: -21px;
+}
+
+#pricing .item{
+    color: #ff8f00;
+    margin-bottom: 27px;
+}
+
+#pricing #two .item{
+   color: #296ffa; 
+}
+#pricing .item span{
+    color: #666;
+}
+#pricing #three .item{
+    color: #2acf8d;
+}
+
+#pricing #one a{
+    color: #ff8f00;
+    background-color: rgba(255, 143, 0, 0.1);
+    padding: 20px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#pricing #two a{
+    color: #fff;
+    background-color: #296ffa;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#pricing #three a{
+    color: #2acf8d;
+    background-color: rgba(255, 143, 0, 0.1);
+    padding: 20px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#pricing #two li:nth-child(1){
+    color: #296ffa;
+}
+#pricing #three li:nth-child(1){
+    color: #2acf8d;
+}
+
+#pricing .hidden span{
+    color: #ccc;
+}
+
+#pricing .tabla{
+    position: relative;
+}
+
+#pricing hr{
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    width: 80%;
+    border-color: #24232333;
+}
